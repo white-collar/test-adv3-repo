@@ -6,6 +6,9 @@ public class Vehicle extends Transport {
         System.out.println("init block");
     }
 
+    {
+        System.out.println("dynamic init");
+    }
 
     String name;
 
